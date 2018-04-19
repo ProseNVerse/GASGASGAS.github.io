@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+html {background-color: black;
+    background-image: url("killme.gif");
+    background-size: cover;
+    background-repeat: space;
+   
+}
+
+#header {
+    color:#ffffff;
+}
+
+
+#h1{
+    font-family:"Comic Sans MS";
+    font-size: 50px;
+    color:aliceblue;#
+    font-stretch: 50px;
+ }
+ #h2
+ {
+     font-family:"Comic Sans MS";
+     color: aliceblue;
+ }
+ #p1{
+     font-family: "Comic Sans MS";
+     font-size: 50px;
+     color:rgb(205, 5, 255);
+     font-stretch: 50px;
+ }
+
+ #mainbody{
+     font-family: "Comic Sans MS";
+     font-size: 50px;
+     color:rgb(205, 5, 255);
+ }
+
+ #results{
+     font-family: "Comic Sans MS";
+     font-size: 50px;
+     color:rgb(205, 5, 255);
+ }
+

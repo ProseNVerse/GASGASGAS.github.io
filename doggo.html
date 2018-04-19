@@ -1,0 +1,83 @@
+<html>
+        <link href="stylesheet.css"   rel="stylesheet"   type="text/css" />
+        <style>
+           
+          
+
+        </style>
+        
+<head>
+        <audio autoplay>
+                <source src= "byedale.mp3" type="audio/mp3">
+                
+              </audio>
+
+</head>
+
+    <body id = "mainbody">
+        
+        <form>
+            What Place Did Your Doggo Come?<br><br><input id="place" type="text"><br>
+        </form>
+
+
+        <script>
+            
+  
+            function doggo(){
+                var a = document.getElementById("place").value;
+                var b = parseInt(a);
+            
+
+        
+      
+            for (var i=1; i<b; i++){
+        
+
+                
+               if ((i % 10 == 1) && (i != 11)){
+                   console.log(i + "st");
+                   document.getElementById("results").innerHTML+= i + "st, ";
+               }
+                else if (i % 10 == 2){
+                    console.log(i+ "nd");
+                    document.getElementById("results").innerHTML+= i + "nd, ";
+                }
+                else if (i % 10 == 3){
+                    console.log(i + "rd");
+                    document.getElementById("results").innerHTML+= i + "rd, ";
+                }
+                else {
+                    console.log(i + "th");
+                    document.getElementById("results").innerHTML+= i + "th, ";
+                }
+
+                    
+               
+            }
+
+            }
+
+        
+
+
+
+
+            </script>
+
+        <button type="button" id="placebutton" onClick=doggo()>Find OUT!</button>
+
+
+<p id ="p1">
+    The doggos that came before you were:
+</p><br><br>
+            <p id = "results">
+                
+            
+            </p><br>
+
+
+        </body>
+
+   
+</html>
